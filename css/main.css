@@ -1,0 +1,169 @@
+body{
+  color: white;
+}
+
+#logo{
+  width: 75%;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 27px;
+}
+
+#main-header{
+  height: 50px;
+}
+
+#main-menu{
+  height: 50px;
+  background-color: #4e1831;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#menu-list{
+  margin: 20px;
+}
+
+
+.section{
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrowCont{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.arrows{
+  border: solid #4e1831;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+
+.listElement{
+  float:left;
+  list-style: none;
+  margin: 10px;
+}
+
+.listElement a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+#footerSection{
+  background-color: #f9ecf2;
+}
+
+#firstSection{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.slider{
+  width: 60%;
+}
+.slider > ul{
+  list-style: none;
+}
+
+.slider img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.sliderVisibility{
+  display: none;
+}
+
+#secondSection{
+  background-color: #f9ecf2;
+}
+
+.circle{
+  background-color: #4e1831;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.innerCircle{
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+.firstCircle{
+  background-image: url('/graphics/horse.jpg');
+}
+
+.secondCircle{
+  background-image: url('/graphics/campfire.jpg');
+}
+
+.thirdCircle{
+  background-image: url('/graphics/pancake.jpg');
+}
+
+.fourthCircle{
+  background-image: url('/graphics/fishing.jpg');
+}
+
+.fifthCircle{
+  background-image: url('/graphics/kayak.jpg');
+}
+
+.circles{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#footerBar{
+  height: 50px;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.infoSec{
+  color: #4e1831;
+  text-align: center;
+}
